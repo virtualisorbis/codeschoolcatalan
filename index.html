@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plataforma Interactiva d'Aprenentatge de Codi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="sidebar">
+    <h2>Lliçó <span id="lesson-number">1</span>: <span id="lesson-title">Escriu un Encapçalament</span></h2>
+    <div id="explanation">
+      <p id="lesson-explanation"></p>
+    </div>
+    <div id="example">
+      <strong>Exemple (No és la teva tasca):</strong>
+      <pre id="lesson-example"></pre>
+      <p>Aquest codi mostra com completar la tasca. Segueix les instruccions amb atenció.</p>
+    </div>
+    <div id="instructions">
+      <p id="lesson-instruction"></p>
+    </div>
+    <button id="checkCodeButton">Comprova el Codi</button>
+  </div>
+
+  <div id="editor-container">
+    <div id="editor">
+      <h3>HTML</h3>
+      <textarea id="htmlCode" placeholder="Escriu el teu codi HTML aquí..."></textarea>
+
+      <h3>CSS</h3>
+      <textarea id="cssCode" placeholder="Escriu el teu codi CSS aquí..."></textarea>
+
+      <h3>JavaScript</h3>
+      <textarea id="jsCode" placeholder="Escriu el teu codi JavaScript aquí..."></textarea>
+    </div>
+    <div id="preview">
+      <iframe id="output"></iframe>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
